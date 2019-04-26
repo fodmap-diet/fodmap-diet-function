@@ -1,6 +1,6 @@
 # fodmap-diet-function
 openfaas function for fodmap diet   
-live at [o6s.io](https://s8sg.o6s.io/fodmap-diet)
+live at [fodmap-diet.o6s.io](https://fodmap-diet.o6s.io/fodmap-diet)
 
 ### getting started
 deploy
