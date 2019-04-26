@@ -1,6 +1,11 @@
 # fodmap-diet-function
 openfaas function for fodmap diet   
-live at [fodmap-diet.o6s.io](https://fodmap-diet.o6s.io/fodmap-diet)
+
+### Test live deployment
+fodmap diet function is live at [fodmap-diet.o6s.io](https://fodmap-diet.o6s.io/fodmap-diet)
+```
+curl https://fodmap-diet.o6s.io/fodmap-diet -d '{"items":["banana","cream"]}'
+```
 
 ### getting started
 deploy
