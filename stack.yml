@@ -1,0 +1,8 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  fodmap-diet:
+    lang: go
+    handler: ./fodmap-diet
+    image: s8sg/fodmap-diet-function:latest
