@@ -31,3 +31,8 @@ sample output
     }
 }
 ```
+to improve performance allow write to `rootfs` and disable `read_only_fs` in `stack.yml`
+```yml
+    environment:
+      read_only_fs: false 
+```
