@@ -6,3 +6,6 @@ functions:
     lang: go
     handler: ./fodmap-diet
     image: s8sg/fodmap-diet-function:latest
+    environment:
+      api_url: https://fodmap-diet-238401.appspot.com
+      read_only_fs: true 
